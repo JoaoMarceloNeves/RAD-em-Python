@@ -6,7 +6,7 @@
 # a - append / acrescenta
 # w - write / escrita -> sobrescreve ou cria um novo
 # x - create / criar arquivo
-# r+ - reado and write / leitura + escrita
+# r+ - read and write / leitura + escrita
 
 #-- 1 --------------------
 #arquivo = open("RAD em Python/teste.txt", "r")
@@ -56,13 +56,13 @@
 
 
 #== 6 ====================
-import os
+#import os
 
 # Remover arquivo
-if os.path.exists("RAD em Python/teste2.txt"):
-    os.remove("RAD em Python/teste2.txt")
-else:
-    print("ESTO NON ECZISTE")
+#if os.path.exists("RAD em Python/teste2.txt"):
+#    os.remove("RAD em Python/teste2.txt")
+#else:
+#    print("ESTO NON ECZISTE")
 
 # Remover pasta
 #os.rmdir(PATH) # Só remove se estiver vazia
