@@ -6,3 +6,5 @@ C
 C++
 Rust
 Matlab
+SQL
+R
